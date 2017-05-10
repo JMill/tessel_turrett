@@ -7,7 +7,7 @@ OVERVIEW
 
 “Angel Eye” is a ‘roadway guardian’ system that watches street intersections (via camera) and broadcasts just-in-time alerts to road users to mitigate collisions or to otherwise enhance situational awareness.
 
-I wanted to build the hardware output component. This project involved the construction of a two-axis servo gimbal that is controlled by a Tessel board. The Tessel receives commands from a remote user or script to point a laser pointer toward an intended area.
+I wanted to build the hardware output component. This project involved the construction of a two-axis servo gimbal that is controlled by a Tessel board. The Tessel receives commands from a remote user or script to point a laser pointer toward an intended area, e.g. the upper left corner of a projection screen.
 
 The remote user/script issues a command for the gimbal to point at a specific (x, y) coordinate on a street intersection (or, for demo purposes, a projection screen). Then the system interpolates the coordinates and translates the coordinates into two-axis positional data to feed to the horizontal, (x), and vertical, (y), servos, respectively.
 
