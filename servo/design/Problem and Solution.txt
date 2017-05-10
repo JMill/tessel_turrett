@@ -3,3 +3,19 @@
 By: Jonathan Miller
 Project: Angel Eye
 
+PROBLEM I AM SOLVING
+====================
+
+High-level problem: Road intersections are dangerous, in part because cars, trucks, bicycles, and pedestrians are all in close proximity. If we have a camera and object identification system in place to watch the intersection, how can we output information to users of the road?
+
+Low-level problem: To demonstrate an example of 'output information', can a controllable laser turret be built?
+
+Solution Approach: The turret must operate on two axes (horizontal and vertical) and is to have a laser mounted on top to indicate its position.
+
+The code is organized into the following directories:
+
+    arduino/            -> script used for testing a servo's movements.
+    blinky/             -> test routine for validating control of the Tessel board
+    servo/
+        dual_axis/      -> calibration and control scripts for the two-axis turret
+        single_axis/    -> calibration and control scripts for a solo servo
